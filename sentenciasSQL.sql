@@ -37,7 +37,7 @@ PRIMARY KEY (id_persona)
 --7.Mirar el contenido de la tabla
 SELECT * FROM persona;
 
---8.LLenar la tabla con mil registros (recordemos usar la direccion donde el )
+--8.LLenar la tabla con mil registros (recordemos usar la direccion donde esta el archivo separado por \\ )
 LOAD DATA INFILE 'F:\\base de datos\\prueba.csv'
 INTO TABLE persona
 FIELDS TERMINATED BY  ',' 
